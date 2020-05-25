@@ -1,0 +1,10 @@
+.goods{
+  display:flex;
+  flex-wrap: wrap;
+  /* justify-content: space-evenly; */
+}
+.goods > .item{
+  width:48%;
+  padding:4rpx;
+  position: relative;
+}

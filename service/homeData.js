@@ -1,0 +1,244 @@
+const homeBanner=[{
+    "id":0,
+    "pictureUrl":"../assets/images/banner/banner1.jpg" 
+  },{
+    "id":1,
+    "pictureUrl":"../assets/images/banner/banner2.jpg"
+  },{
+    "id":2,
+    "pictureUrl":"../assets/images/banner/banner3.jpg"
+  },{
+    "id":3,
+    "pictureUrl":"../assets/images/banner/banner4.jpg"
+  },{
+    "id":4,
+    "pictureUrl":"../assets/images/banner/banner5.jpg"
+  }
+];
+const homeRecommend=[{
+  "id":0,
+  "pictureUrl":"../assets/images/recommend/recommend1.jpg",
+  title:"520告白神器"
+},{
+  "id":1,
+  "pictureUrl":"../assets/images/recommend/recommend2.jpg",
+  title:"520约会心机"
+},{
+  "id":2,
+  "pictureUrl":"../assets/images/recommend/recommend3.jpg",
+  title:"520男神必备"
+},{
+  "id":3,
+  "pictureUrl":"../assets/images/recommend/recommend4.jpg",
+  title:"520女神必备"
+}];
+const homeCategory={"pop":[{
+  id:0,
+  pictureUrl:"../assets/images/recommend/recommend1.jpg",
+  title:"2020年新款百褶连衣裙+雪纺外套",
+  price:39,
+  cafv:45
+},
+{
+  id:1,
+  pictureUrl:"../assets/images/recommend/recommend1.jpg",
+  title:"2020年新款百褶连衣裙+雪纺外套",
+  price:39,
+  cafv:45
+},{
+  id:2,
+  pictureUrl:"../assets/images/recommend/recommend1.jpg",
+  title:"2020年新款百褶连衣裙+雪纺外套",
+  price:39,
+  cafv:45
+},{
+  id:3,
+  pictureUrl:"../assets/images/recommend/recommend1.jpg",
+  title:"2020年新款百褶连衣裙+雪纺外套",
+  price:39,
+  cafv:45
+},{
+  id:4,
+  pictureUrl:"../assets/images/recommend/recommend1.jpg",
+  title:"2020年新款百褶连衣裙+雪纺外套",
+  price:39,
+  cafv:45
+},{
+  id:5,
+  pictureUrl:"../assets/images/recommend/recommend1.jpg",
+  title:"2020年新款百褶连衣裙+雪纺外套",
+  price:39,
+  cafv:45
+},{
+  id:6,
+  pictureUrl:"../assets/images/recommend/recommend1.jpg",
+  title:"2020年新款百褶连衣裙+雪纺外套",
+  price:39,
+  cafv:45
+},{
+  id:7,
+  pictureUrl:"../assets/images/recommend/recommend1.jpg",
+  title:"2020年新款百褶连衣裙+雪纺外套",
+  price:39,
+  cafv:45
+},{
+  id:8,
+  pictureUrl:"../assets/images/recommend/recommend1.jpg",
+  title:"2020年新款百褶连衣裙+雪纺外套",
+  price:39,
+  cafv:45
+},{
+  id:9,
+  pictureUrl:"../assets/images/recommend/recommend1.jpg",
+  title:"2020年新款百褶连衣裙+雪纺外套",
+  price:39,
+  cafv:45
+},{
+  id:10,
+  pictureUrl:"../assets/images/recommend/recommend1.jpg",
+  title:"2020年新款百褶连衣裙+雪纺外套",
+  price:39,
+  cafv:45
+}],
+"new":[{
+  id:0,
+  pictureUrl:"../assets/images/recommend/recommend2.jpg",
+  title:"2020年新款百褶连衣裙+雪纺外套",
+  price:39,
+  cafv:45
+},
+{
+  id:1,
+  pictureUrl:"../assets/images/recommend/recommend2.jpg",
+  title:"2020年新款百褶连衣裙+雪纺外套",
+  price:39,
+  cafv:45
+},{
+  id:2,
+  pictureUrl:"../assets/images/recommend/recommend2.jpg",
+  title:"2020年新款百褶连衣裙+雪纺外套",
+  price:39,
+  cafv:45
+},{
+  id:3,
+  pictureUrl:"../assets/images/recommend/recommend2.jpg",
+  title:"2020年新款百褶连衣裙+雪纺外套",
+  price:39,
+  cafv:45
+},{
+  id:4,
+  pictureUrl:"../assets/images/recommend/recommend2.jpg",
+  title:"2020年新款百褶连衣裙+雪纺外套",
+  price:39,
+  cafv:45
+},{
+  id:5,
+  pictureUrl:"../assets/images/recommend/recommend2.jpg",
+  title:"2020年新款百褶连衣裙+雪纺外套",
+  price:39,
+  cafv:45
+},{
+  id:6,
+  pictureUrl:"../assets/images/recommend/recommend2.jpg",
+  title:"2020年新款百褶连衣裙+雪纺外套",
+  price:39,
+  cafv:45
+},{
+  id:7,
+  pictureUrl:"../assets/images/recommend/recommend2.jpg",
+  title:"2020年新款百褶连衣裙+雪纺外套",
+  price:39,
+  cafv:45
+},{
+  id:8,
+  pictureUrl:"../assets/images/recommend/recommend2.jpg",
+  title:"2020年新款百褶连衣裙+雪纺外套",
+  price:39,
+  cafv:45
+},{
+  id:9,
+  pictureUrl:"../assets/images/recommend/recommend2.jpg",
+  title:"2020年新款百褶连衣裙+雪纺外套",
+  price:39,
+  cafv:45
+},{
+  id:10,
+  pictureUrl:"../assets/images/recommend/recommend2.jpg",
+  title:"2020年新款百褶连衣裙+雪纺外套",
+  price:39,
+  cafv:45
+}],
+"sell":[{
+  id:0,
+  pictureUrl:"../assets/images/recommend/recommend3.jpg",
+  title:"2020年新款百褶连衣裙+雪纺外套",
+  price:39,
+  cafv:45
+},
+{
+  id:1,
+  pictureUrl:"../assets/images/recommend/recommend3.jpg",
+  title:"2020年新款百褶连衣裙+雪纺外套",
+  price:39,
+  cafv:45
+},{
+  id:2,
+  pictureUrl:"../assets/images/recommend/recommend3.jpg",
+  title:"2020年新款百褶连衣裙+雪纺外套",
+  price:39,
+  cafv:45
+},{
+  id:3,
+  pictureUrl:"../assets/images/recommend/recommend3.jpg",
+  title:"2020年新款百褶连衣裙+雪纺外套",
+  price:39,
+  cafv:45
+},{
+  id:4,
+  pictureUrl:"../assets/images/recommend/recommend3.jpg",
+  title:"2020年新款百褶连衣裙+雪纺外套",
+  price:39,
+  cafv:45
+},{
+  id:5,
+  pictureUrl:"../assets/images/recommend/recommend3.jpg",
+  title:"2020年新款百褶连衣裙+雪纺外套",
+  price:39,
+  cafv:45
+},{
+  id:6,
+  pictureUrl:"../assets/images/recommend/recommend3.jpg",
+  title:"2020年新款百褶连衣裙+雪纺外套",
+  price:39,
+  cafv:45
+},{
+  id:7,
+  pictureUrl:"../assets/images/recommend/recommend3.jpg",
+  title:"2020年新款百褶连衣裙+雪纺外套",
+  price:39,
+  cafv:45
+},{
+  id:8,
+  pictureUrl:"../assets/images/recommend/recommend3.jpg",
+  title:"2020年新款百褶连衣裙+雪纺外套",
+  price:39,
+  cafv:45
+},{
+  id:9,
+  pictureUrl:"../assets/images/recommend/recommend3.jpg",
+  title:"2020年新款百褶连衣裙+雪纺外套",
+  price:39,
+  cafv:45
+},{
+  id:10,
+  pictureUrl:"../assets/images/recommend/recommend3.jpg",
+  title:"2020年新款百褶连衣裙+雪纺外套",
+  price:39,
+  cafv:45
+}]
+}
+module.exports={
+  homeBannerList:homeBanner,
+  homeRecommendList:homeRecommend,                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                   
+  homeCategoryList:homeCategory
+}

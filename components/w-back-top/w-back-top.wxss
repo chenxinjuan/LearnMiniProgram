@@ -1,0 +1,11 @@
+.back-top{
+  position: fixed;
+  right:0;
+  bottom:4rpx;
+}
+.back-top image{
+  width:70rpx;
+  height:70rpx;
+  border-radius: 50%;
+  background-color: #ffffff;
+}

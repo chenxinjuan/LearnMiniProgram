@@ -1,2 +1,6 @@
-<!--pages/home/home.wxml-->
-<text class="title">hello world</text>
+<w-swiper list="{{homeBanner}}" commonUrl="{{headUrl}}"></w-swiper>
+<w-recommend homeRecommend="{{homeRecommend}}"></w-recommend>
+<w-tabbar class="{{isTabFixed?'fixed':''}}" titles="{{titles}}" bind:tabbarClick="tabbarClick" id="tab-fixed"></w-tabbar>
+<w-tabbar wx:if="{{isTabFixed}}"/>
+<w-goods goodsList="{{goods[currentIndex].list}}"></w-goods>
+<w-back-top wx:if="{{isScroll}}"></w-back-top>

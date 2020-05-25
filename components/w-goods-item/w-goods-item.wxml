@@ -1,0 +1,11 @@
+<view class="goods-item">
+    <image class="img" src="{{goodsItemUrl}}{{item.pictureUrl}}" mode="widthFix"></image>
+    <view class="desc-info">
+      <view class="title">{{item.title}}</view>
+      <view class="info">
+        <text class="price">￥{{item.price}}</text>
+        <image class="icon" src="../../assets/images/common/like.png"></image>
+        <text class="cafv">{{item.cafv}}</text>
+      </view>
+    </view>
+</view>
